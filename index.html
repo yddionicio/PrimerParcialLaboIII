@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="js/archivos.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- "id": 9,
+  "nombre": "Elementos de Investigación Operativa",
+  "cuatrimestre": 3,
+  "fechaFinal": "03/12/2019",
+  "turno": "Noche" -->
+
+<body>
+    <div id = "contenedor_carga">
+        <div id="carga"></div>
+    </div>
+    <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="idNombre">
+
+        <label for="cuatrimestre">Cuatrimestre</label>
+        <input type="text" name="cuatrimestre" id="idCuatrimestre">
+
+        <label for="fechaFinal">Fecha Final</label>
+        <input type="text" name="fechaFinal" id="idFechaFinal">
+
+        <label for="turno">Turno</label>
+
+        <label for="turno">Mañana</label>
+        <input type="radio" name="boton" value="Mañana" id="idMañana">
+
+        <label for="turno">Noche</label>
+        <input type="radio" name="boton" value="Noche" id="idNoche">
+        
+        <button id = idEliminar>Eliminar</button>
+        <button id = idModificar>Modificar</button>
+
+    </form>
+    <h2>Lista de Materias</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Cuatrimestre</th>
+                <th>Fecha Final</th>
+                <th>Turno</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+   
+</body>
+
+</html>
